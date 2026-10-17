@@ -42,4 +42,4 @@ Strona główna
 
 Dlaczego WordPress, a nie Wix, Shopify lub Drupal?
 
-WordPress działa na 40,2% wszystkich stron internetowych i ma 58,7% udziału wśród stron korzystających z systemu CMS. WordPress pasuje do potrzeb restauracji, bo pozwoli wygodnie aktualizować menu, godziny i informacje o lokalu bez wdrażania rozbudowanego sklepu internetowego. Wix może być prosty w uruchomieniu, Shopify jest rozwiązaniem e-commerce, a Drupal byłby dużo bardziej rozbudowany niż wymaga tego zakres projektu.
+WordPress działa na 40,2% wszystkich stron internetowych i ma 58,7% udziału wśród stron korzystających z systemu CMS. WordPress pasuje do potrzeb restauracji, bo pozwoli wygodnie aktualizować menu, godziny i informacje o lokalu bez wdrażania rozbudowanego sklepu internetowego. Shopify jest rozwiązaniem e-commerce, a Drupal byłby dużo bardziej rozbudowany niż wymaga tego zakres projektu.
