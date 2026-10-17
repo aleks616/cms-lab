@@ -1,4 +1,4 @@
-Crusty Crab — koncepcja fikcyjnej firmy
+Crusty Crab - koncepcja fikcyjnej firmy
 
 To projekt koncepcyjny niezależnej restauracji, niepowiązanej z serialem „SpongeBob Kanciastoporty” ani jego właścicielami praw.
 
