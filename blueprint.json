@@ -51,7 +51,7 @@
 },
 {
 "step": "importWxr",
-"file": { "resource": "url", "url": "https://TODO/twoje-repo/raw/tresci.xml" }
+"file": { "resource": "url", "url": "https://github.com/aleks616/cms-lab/blob/main/raw/tresci.xml" }
 }
 ]
 }
