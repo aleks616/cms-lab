@@ -33,9 +33,9 @@ Strona główna
 
 ├── Rezerwacje
 
-├── Lokalizacja i godziny
+├── Godziny otwarcia
 
-├── Kontakt
+├── Kontakt i lokalizacja
 
 └── Polityka prywatności
 
