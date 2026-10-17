@@ -1,49 +1,64 @@
 {
-"$schema": "https://playground.wordpress.net/blueprint-schema.json",
-"landingPage": "/wp-admin/",
-"preferredVersions": { "php": "8.3", "wp": "latest" }, "login": true,
-"steps": [
-{ "step": "setSiteLanguage", "language": "pl_PL" },
-{
-"step": "installTheme",
-"themeData": { "resource": "wordpress.org/themes", "slug": "twentytwentyfive" },
-"options": { "activate": true }
-},
-{
-"step": "installPlugin",
-"pluginData": { "resource": "wordpress.org/plugins", "slug": "contact-form-7" }
-},
-{
-"step": "setSiteOptions",
-"options": {
-"blogname": "Crusty Crab",
-"blogdescription": "admin123",
-"permalink_structure": "/%postname%/"
-}
-},
-  {
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/wp-admin/",
+  "preferredVersions": {
+    "php": "8.3",
+    "wp": "latest"
+  },
+  "login": true,
+  "steps": [
+    {
+      "step": "setSiteLanguage",
+      "language": "pl_PL"
+    },
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "wordpress.org/themes",
+        "slug": "twentytwentyfive"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "contact-form-7"
+      }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "Crusty Crab",
+        "blogdescription": "admin123",
+        "permalink_structure": "/%postname%/"
+      }
+    },
+      {
 "step": "wp-cli",
-"command": "wp post create --post_type=page --post_title='Menu'--post_status=publish"
+"command": "wp post create --post_type=page --post_title='Menu' --post_status=publish"
 },
          {
 "step": "wp-cli",
-"command": "wp post create --post_type=page --post_title='O nas'--post_status=publish"
+"command": "wp post create --post_type=page --post_title='O nas' --post_status=publish"
 },
          {
 "step": "wp-cli",
-"command": "wp post create --post_type=page --post_title='Rezerwacje'--post_status=publish"
+"command": "wp post create --post_type=page --post_title='Rezerwacje' --post_status=publish"
 },
          {
 "step": "wp-cli",
-"command": "wp post create --post_type=page --post_title='Godziny otwarcia'--post_status=publish"
+"command": "wp post create --post_type=page --post_title='Godziny otwarcia' --post_status=publish"
 },
          {
 "step": "wp-cli",
-"command": "wp post create --post_type=page --post_title='Kontakt'--post_status=publish"
+"command": "wp post create --post_type=page --post_title='Kontakt' --post_status=publish"
 },
          {
 "step": "wp-cli",
-"command": "wp post create --post_type=page --post_title='Polityka prywatności'--post_status=publish"
+"command": "wp post create --post_type=page --post_title='Polityka prywatności' --post_status=publish"
 },
     {
 "step": "runPHP",
@@ -53,5 +68,6 @@
 "step": "importWxr",
 "file": { "resource": "url", "url": "https://github.com/aleks616/cms-lab/blob/main/raw/tresci.xml" }
 }
-]
+  ],
+  "features": {}
 }
