@@ -1,0 +1,46 @@
+{
+"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+"landingPage": "/",
+"login": true,
+"steps": [
+{ "step": "setSiteLanguage", "language": "pl_PL" },
+  {
+"step": "wp-cli",
+"command": "wp post create --post_type=page --post_title='Menu' --
+post_status=publish"
+},
+{
+"step": "wp-cli",
+"command": "wp post create --post_type=page --post_title='O nas' --
+post_status=publish"
+},
+  {
+"step": "wp-cli",
+"command": "wp post create --post_type=page --post_title='Rezerwacje' --
+post_status=publish"
+},
+  {
+"step": "wp-cli",
+"command": "wp post create --post_type=page --post_title='Godziny otwarcia' --
+post_status=publish"
+},
+{
+"step": "wp-cli",
+"command": "wp post create --post_type=page --post_title='Kontakt' --
+post_status=publish"
+},
+  {
+"step": "wp-cli",
+"command": "wp post create --post_type=page --post_title='Polityka prywatności' --
+post_status=publish"
+},
+{
+"step": "runPHP",
+"code": "<?php require '/wordpress/wp-load.php'; wp_delete_post(1, true);"
+},
+{
+"step": "importWxr",
+"file": { "resource": "url", "url": "https://TODO/twoje-repo/raw/tresci.xml" }
+}
+]
+}
