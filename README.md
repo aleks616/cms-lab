@@ -24,11 +24,17 @@ Oczekiwana akcja (CTA): „Zobacz menu i ceny”.
 Mapa strony
 
 Strona główna
+
 ├── Menu
+
 ├── O nas
+
 ├── Rezerwacje
+
 ├── Lokalizacja i godziny
+
 ├── Kontakt
+
 └── Polityka prywatności
 
 Dlaczego WordPress, a nie Wix, Shopify lub Drupal?
